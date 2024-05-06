@@ -2,6 +2,8 @@
 import React from 'react'
 import NavBarComponent from '../components/NavBarComponent'
 import FooterComponent from '../components/FooterComponent'
+import me from "../assets/me.jpg"
+import notme from "../assets/git.png"
 
 const page = () => {
     return (
@@ -9,29 +11,11 @@ const page = () => {
             <div className="min-h-screen h-full gradient grid">
                 <NavBarComponent />
 
-                <div className='mt-14 grid grid-cols-2'>
-                    <div className='col-span-1 grid justify-center'>
-                        <p className='text-[#9e7653] text-center'>Noteable Projects</p>
-
-                        <div className='bg-white w-80 h-80'>
-
-                        </div>
-
-                        <div className='bg-white w-80 h-80'>
-
-                        </div>
-                    </div>
-
-                    <div className='col-span-1 grid justify-center'>
-                        <p className='text-[#9e7653] text-center'>Skills</p>
-
-                        <div className='bg-white w-80 h-80'>
-
-                        </div>
-
-                        <div className='bg-white w-80 h-80'>
-
-                        </div>
+                <div className='my-14'>
+                    <p className='text-[#9e7653] my-4 text-4xl text-center quando pb-10'>ABOUT ME</p>
+                    <div className='flex justify-center'>
+                        <p className='quando text-2xl text-[#9e7653] w-[40%] mr-20'>I, Sebastian Breve-Sanchez, am a web developer. I currently attend CodeStack Academy, where I was first taught how to code. From here I learned all of my current programming skillset, which ranges from Unity to fullstack web development. I have experience with frontend languages such as Javascript and libraries such as React, as well as knowing C# and how to create and host an API.</p>
+                        <img className='w-40 h-60 rounded-full' src={me.src} alt="A picture of myself" />
                     </div>
                 </div>
 
@@ -41,7 +25,7 @@ const page = () => {
 
             </div>
         </>
-    )
+    );
 }
 
 export default page

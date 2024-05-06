@@ -34,71 +34,71 @@ export default function Home() {
             <div className='flex justify-evenly w-screen my-2'>
               <div>
                 <img className='w-16 h-16 mx-6 py-2' src={html.src} alt="HTML" />
-                <p className="text-center">HTML</p>
+                <p className="text-center quando text-base text-[#9e7653]">HTML</p>
               </div>
               <div>
                 <img className='w-16 h-16 mx-6 p-1' src={css.src} alt="CSS" />
-                <p className="text-center">CSS</p>
+                <p className="text-center quando text-base text-[#9e7653]">CSS</p>
               </div>
               <div>
                 <img className='w-16 h-16 mx-6 py-1' src={js.src} alt="JavaScript" />
-                <p className="text-center">JavaScript</p>
+                <p className="text-center quando text-base text-[#9e7653]">JavaScript</p>
               </div>
               <div>
                 <img className='w-16 h-16 mx-6' src={ts.src} alt="TypeScript" />
-                <p className="text-center">TypeScript</p>
+                <p className="text-center quando text-base text-[#9e7653]">TypeScript</p>
               </div>
               <div>
                 <img className='w-16 h-16 mx-6' src={cSharp.src} alt="C Sharp" />
-                <p className="text-center">C#</p>
+                <p className="text-center quando text-base text-[#9e7653]">C#</p>
               </div>
               <div>
                 <img className='w-16 h-16 mx-6' src={dotnet.src} alt="Dotnet" />
-                <p className="text-center">.Net</p>
+                <p className="text-center quando text-base text-[#9e7653]">.Net</p>
               </div>
             </div>
             <div className='flex justify-evenly w-screen my-2'>
               <div>
                 <img className='w-16 h-16 mx-6' src={sql.src} alt="MySql" />
-                <p className="text-center">MySQL</p>
+                <p className="text-center quando text-base text-[#9e7653]">MySQL</p>
               </div>
               <div>
                 <img className='w-16 h-16 mx-6 py-1' src={bs.src} alt="BootStrap" />
-                <p className="text-center">BootStrap</p>
+                <p className="text-center quando text-base text-[#9e7653]">BootStrap</p>
               </div>
               <div>
                 <img className='w-16 h-16 mx-6 py-2' src={tw.src} alt="TailwindCSS" />
-                <p className="text-center">TailwindCSS</p>
+                <p className="text-center quando text-base text-[#9e7653]">TailwindCSS</p>
               </div>
               <div>
                 <img className='w-16 h-16 mx-6' src={react.src} alt="React" />
-                <p className="text-center">React</p>
+                <p className="text-center quando text-base text-[#9e7653]">React</p>
               </div>
             </div>
             <div className='flex justify-evenly w-screen my-2'>
               <div>
                 <img className='w-16 h-16 mx-6' src={next.src} alt="Next.js" />
-                <p className="text-center">Next.js</p>
+                <p className="text-center quando text-base text-[#9e7653]">Next.js</p>
               </div>
               <div>
                 <img className='w-16 h-16 mx-6' src={vercel.src} alt="Vercel" />
-                <p className="text-center">Vercel</p>
+                <p className="text-center quando text-base text-[#9e7653]">Vercel</p>
               </div>
               <div>
                 <img className='w-16 h-16 mx-6 py-1' src={azure.src} alt="Azure" />
-                <p className="text-center">Azure</p>
+                <p className="text-center quando text-base text-[#9e7653]">Azure</p>
               </div>
               <div>
                 <img className='w-16 h-16 mx-6' src={github.src} alt="Github" />
-                <p className="text-center">Github</p>
+                <p className="text-center quando text-base text-[#9e7653]">Github</p>
               </div>
               <div>
                 <img className='w-16 h-16 mx-6' src={unity.src} alt="Unity" />
-                <p className="text-center">Unity</p>
+                <p className="text-center quando text-base text-[#9e7653]">Unity</p>
               </div>
               <div>
                 <img className='w-16 h-16 mx-6' src={vsc.src} alt="Visual Studio Code" />
-                <p className="text-center">VS Code</p>
+                <p className="text-center quando text-base text-[#9e7653]">VS Code</p>
               </div>
             </div>
 
