@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Sedan;
+  src: url("./fonts/SedanSC-Regular.ttf");
+}
+
+.sedan{
+  font-family: Sedan;
+}
+
+@font-face {
+  font-family: Quando;
+  src: url("./fonts/Quando-Regular.ttf");
+}
+
+.quando{
+  font-family: Quando;
+}
+
 .gradient {
-  background-image: linear-gradient(#9e7653 11%, #eee7ce 20%);
+  background-image: linear-gradient(#9e7653 100px, #eee7ce 150px);
+}
+
+body{
+  background-color: #eee7ce;
 }
