@@ -24,6 +24,10 @@
   background-image: linear-gradient(#9e7653 100px, #eee7ce 150px);
 }
 
+.gradientWhite {
+  background-image: linear-gradient(#eee7ce, #FFFEF7 40px);
+}
+
 body{
   background-color: #eee7ce;
 }

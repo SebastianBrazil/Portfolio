@@ -7,19 +7,19 @@ import { useRouter } from 'next/navigation';
 const NavBarComponent = () => {
 
     const router = useRouter();
-    const swapPage = () => {
-        router.push("AboutPage")
+    const swapPage = (page: string) => {
+        router.push(page)
     }
 
     return (
         <div className='w-screen'>
             <div className='grid grid-cols-2'>
                 <div className='col-span-1 place-content-center'>
-                    <p className='text-[#eee7ce] sedan'>CodeChronicles</p>
+                    <p onClick={() => swapPage("/")} className='cursor-pointer text-[#eee7ce] text-3xl ml-5 sedan'>CodeChronicles</p>
                 </div>
 
                 <div className='col-span-1 flex justify-end'>
-                    <img onClick={() => swapPage()} src={hambub.src} alt="Hamburger Menu" />
+                    <img className='cursor-pointer' onClick={() => swapPage("AboutPage")} src={hambub.src} alt="Hamburger Menu" />
                 </div>
             </div>
         </div>
