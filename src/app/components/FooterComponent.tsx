@@ -24,9 +24,9 @@ const FooterComponent = () => {
                 <img className='w-16 h-16 mx-6 cursor-pointer' onClick={() => goToLinkedIn()} src={linkedIn.src} alt="LinkedIn Link" />
                 <img className='w-16 h-16 mx-6 cursor-pointer' onClick={() => goToResume()} src={resumeImg.src} alt="Resume Link" />
             </div>
-            <div className='flex justify-center my-4'>
-                <p className='text-[#9e7653] text-lg quando px-10' >sbrevesanchez088@gmail.com</p>
-                <p className='text-[#9e7653] text-lg quando px-2' >(209) 662-9916 -- Texts preferred</p>
+            <div className='md:flex max-md:grid justify-center my-4'>
+                <p className='text-[#9e7653] max-md:text-center md:text-lg quando md:px-10' >sbrevesanchez088@gmail.com</p>
+                <p className='text-[#9e7653] max-md:text-center md:text-lg quando md:px-2' >(209) 662-9916 -- Texts preferred</p>
             </div>
             <div className='flex justify-center'>
                 <p className='text-[#9e7653] text-sm quando pt-4'>Made in Next.js</p>

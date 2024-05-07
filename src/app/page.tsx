@@ -31,73 +31,107 @@ export default function Home() {
           <div className='grid justify-center'>
             <p className='text-[#9e7653] my-4 text-4xl text-center quando'>SKILLS</p>
 
-            <div className='flex justify-evenly w-screen my-2'>
-              <div>
-                <img className='w-16 h-16 mx-6 py-2' src={html.src} alt="HTML" />
+            <div className='md:flex justify-evenly w-screen my-2 max-md:grid max-md:grid-cols-2'>
+              <div className="max-md:mt-3">
+                <div className="max-md:flex max-md:justify-center">
+                  <img className='w-16 h-16 mx-6 py-2' src={html.src} alt="HTML" />
+                </div>
                 <p className="text-center quando text-base text-[#9e7653]">HTML</p>
               </div>
-              <div>
-                <img className='w-16 h-16 mx-6 p-1' src={css.src} alt="CSS" />
+              <div className="max-md:mt-3">
+                <div className="max-md:flex max-md:justify-center">
+                  <img className='w-16 h-16 mx-6 p-1' src={css.src} alt="CSS" />
+                </div>
                 <p className="text-center quando text-base text-[#9e7653]">CSS</p>
               </div>
-              <div>
-                <img className='w-16 h-16 mx-6 py-1' src={js.src} alt="JavaScript" />
+              <div className="max-md:mt-3">
+                <div className="max-md:flex max-md:justify-center">
+                  <img className='w-16 h-16 mx-6 py-1' src={js.src} alt="JavaScript" />
+                </div>
                 <p className="text-center quando text-base text-[#9e7653]">JavaScript</p>
               </div>
-              <div>
-                <img className='w-16 h-16 mx-6' src={ts.src} alt="TypeScript" />
+              <div className="max-md:mt-3">
+                <div className="max-md:flex max-md:justify-center">
+                  <img className='w-16 h-16 mx-6' src={ts.src} alt="TypeScript" />
+                </div>
                 <p className="text-center quando text-base text-[#9e7653]">TypeScript</p>
               </div>
-              <div>
-                <img className='w-16 h-16 mx-6' src={cSharp.src} alt="C Sharp" />
+              <div className="max-md:mt-3">
+                <div className="max-md:flex max-md:justify-center">
+                  <img className='w-16 h-16 mx-6' src={cSharp.src} alt="C Sharp" />
+                </div>
                 <p className="text-center quando text-base text-[#9e7653]">C#</p>
               </div>
-              <div>
-                <img className='w-16 h-16 mx-6' src={dotnet.src} alt="Dotnet" />
+              <div className="max-md:mt-3">
+                <div className="max-md:flex max-md:justify-center">
+                  <img className='w-16 h-16 mx-6' src={dotnet.src} alt="Dotnet" />
+                </div>
                 <p className="text-center quando text-base text-[#9e7653]">.Net</p>
               </div>
             </div>
-            <div className='flex justify-evenly w-screen my-2'>
-              <div>
-                <img className='w-16 h-16 mx-6' src={sql.src} alt="MySql" />
+
+            <div className='md:flex justify-evenly w-screen my-2 max-md:grid max-md:grid-cols-2'>
+            <div className="max-md:mt-3">
+                <div className="max-md:flex max-md:justify-center">
+                  <img className='w-16 h-16 mx-6' src={sql.src} alt="MySql" />
+                </div>
                 <p className="text-center quando text-base text-[#9e7653]">MySQL</p>
               </div>
-              <div>
-                <img className='w-16 h-16 mx-6 py-1' src={bs.src} alt="BootStrap" />
+              <div className="max-md:mt-3">
+                <div className="max-md:flex max-md:justify-center">
+                  <img className='w-16 h-16 mx-6 py-1' src={bs.src} alt="BootStrap" />
+                </div>
                 <p className="text-center quando text-base text-[#9e7653]">BootStrap</p>
               </div>
-              <div>
-                <img className='w-16 h-16 mx-6 py-2' src={tw.src} alt="TailwindCSS" />
+              <div className="max-md:mt-3">
+                <div className="max-md:flex max-md:justify-center">
+                  <img className='w-16 h-16 mx-6 py-2' src={tw.src} alt="TailwindCSS" />
+                </div>
                 <p className="text-center quando text-base text-[#9e7653]">TailwindCSS</p>
               </div>
-              <div>
-                <img className='w-16 h-16 mx-6' src={react.src} alt="React" />
+              <div className="max-md:mt-3">
+                <div className="max-md:flex max-md:justify-center">
+                  <img className='w-16 h-16 mx-6' src={react.src} alt="React" />
+                </div>
                 <p className="text-center quando text-base text-[#9e7653]">React</p>
               </div>
             </div>
-            <div className='flex justify-evenly w-screen my-2'>
-              <div>
-                <img className='w-16 h-16 mx-6' src={next.src} alt="Next.js" />
+
+            <div className='md:flex justify-evenly w-screen my-2 max-md:grid max-md:grid-cols-2'>
+            <div className="max-md:mt-3">
+                <div className="max-md:flex max-md:justify-center">
+                  <img className='w-16 h-16 mx-6' src={next.src} alt="Next.js" />
+                </div>
                 <p className="text-center quando text-base text-[#9e7653]">Next.js</p>
               </div>
-              <div>
-                <img className='w-16 h-16 mx-6' src={vercel.src} alt="Vercel" />
+              <div className="max-md:mt-3">
+                <div className="max-md:flex max-md:justify-center">
+                  <img className='w-16 h-16 mx-6' src={vercel.src} alt="Vercel" />
+                </div>
                 <p className="text-center quando text-base text-[#9e7653]">Vercel</p>
               </div>
-              <div>
-                <img className='w-16 h-16 mx-6 py-1' src={azure.src} alt="Azure" />
+              <div className="max-md:mt-3">
+                <div className="max-md:flex max-md:justify-center">
+                  <img className='w-16 h-16 mx-6 py-1' src={azure.src} alt="Azure" />
+                </div>
                 <p className="text-center quando text-base text-[#9e7653]">Azure</p>
               </div>
-              <div>
-                <img className='w-16 h-16 mx-6' src={github.src} alt="Github" />
+              <div className="max-md:mt-3">
+                <div className="max-md:flex max-md:justify-center">
+                  <img className='w-16 h-16 mx-6' src={github.src} alt="Github" />
+                </div>
                 <p className="text-center quando text-base text-[#9e7653]">Github</p>
               </div>
-              <div>
-                <img className='w-16 h-16 mx-6' src={unity.src} alt="Unity" />
+              <div className="max-md:mt-3">
+                <div className="max-md:flex max-md:justify-center">
+                  <img className='w-16 h-16 mx-6' src={unity.src} alt="Unity" />
+                </div>
                 <p className="text-center quando text-base text-[#9e7653]">Unity</p>
               </div>
-              <div>
-                <img className='w-16 h-16 mx-6' src={vsc.src} alt="Visual Studio Code" />
+              <div className="max-md:mt-3">
+                <div className="max-md:flex max-md:justify-center">
+                  <img className='w-16 h-16 mx-6' src={vsc.src} alt="Visual Studio Code" />
+                </div>
                 <p className="text-center quando text-base text-[#9e7653]">VS Code</p>
               </div>
             </div>
@@ -107,7 +141,7 @@ export default function Home() {
           <div className='grid justify-center pt-5'>
             <p className='text-[#9e7653] my-4 text-4xl text-center quando'>NOTABLE PROJECTS</p>
 
-            <div className="flex justify-evenly w-screen">
+            <div className="md:flex md:justify-evenly w-screen max-md:grid max-md:justify-center">
               <div className='bg-[#FFFEF7] my-2 p-3 w-80 lg:w-[500px]'>
                 <p className="text-[40px] sedan text-[#9e7653] text-center mb-3">MockTalks</p>
                 <img src={mockTalkImg.src} className="pb-3" alt="MockTalks Front Page" />

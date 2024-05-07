@@ -13,9 +13,11 @@ const page = () => {
 
                 <div className='my-14'>
                     <p className='text-[#9e7653] my-4 text-4xl text-center quando pb-10'>ABOUT ME</p>
-                    <div className='flex justify-center max-lg:px-10'>
-                        <p className='quando text-2xl text-[#9e7653] lg:w-[40%] mr-20'>I, Sebastian Breve-Sanchez, am a web developer. I currently attend CodeStack Academy, where I was first taught how to code. From here I learned all of my current programming skillset, which ranges from Unity to fullstack web development. I have experience with frontend languages such as Javascript and libraries such as React, as well as knowing C# and how to create and host an API.</p>
-                        <img className='w-40 h-60 rounded-full' src={me.src} alt="A picture of myself" />
+                    <div className='md:flex max-md:grid justify-center max-lg:px-10'>
+                        <p className='quando text-2xl text-[#9e7653] lg:w-[40%] md:mr-20'>I, Sebastian Breve-Sanchez, am a web developer. I currently attend CodeStack Academy, where I was first taught how to code. From here I learned all of my current programming skillset, which ranges from Unity to fullstack web development. I have experience with frontend languages such as Javascript and libraries such as React, as well as knowing C# and how to create and host an API.</p>
+                        <div className='max-md:flex max-md: pt-10 max-md:justify-center'>
+                            <img className='w-40 h-60 rounded-full' src={me.src} alt="A picture of myself" />
+                        </div>
                     </div>
                 </div>
 
