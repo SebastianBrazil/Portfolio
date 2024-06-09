@@ -14,7 +14,7 @@ const FooterComponent = () => {
     }
     
     const goToResume = () => {
-        window.open("https://drive.google.com/file/d/1NNPjRPQR1bzykF30MCqi9uZCjCSOqCA-/view?usp=sharing")
+        window.open("https://drive.google.com/file/d/1VuqIAIO77tae2KXhAJCHuUNaq4hHnUDN/view?usp=sharing")
     }
 
     return (
