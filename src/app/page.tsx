@@ -25,6 +25,11 @@ import me from "./assets/croppedMe.jpeg"
 export default function Home() {
   return (
     <>
+      {/* 
+        fix skill images
+        separate them into categories
+        add more projects
+      */}
       <div className="min-h-screen h-full gradient grid">
         <NavBarComponent />
 

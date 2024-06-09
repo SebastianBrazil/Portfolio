@@ -7,7 +7,7 @@ const NavBarComponent = () => {
             <div className='w-screen'>
                 <div className='grid'>
                     <div className='my-4'>
-                        <p className='cursor-pointer text-[#eee7ce] text-2xl md:text-3xl ml-5 sedan'>CodeChronicles</p>
+                        <p className='text-[#eee7ce] text-2xl md:text-3xl ml-5 sedan'>CodeChronicles</p>
                     </div>
                 </div>
             </div>
