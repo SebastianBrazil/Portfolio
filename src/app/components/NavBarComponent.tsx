@@ -9,7 +9,7 @@ const NavBarComponent = () => {
                 <div className='grid'>
                     <div className='my-4'>
                         <div className='flex flex-row ml-5'>
-                            <img className='mt-[2px] w-7 h-9' src={titleImg.src} alt="" />
+                            <img className='mt-[2px] w-7 h-9' src={titleImg.src} alt="Title Icon" />
                             <p className='text-[#eee7ce] ml-2 text-2xl md:text-3xl sedan'>CodeChronicles</p>
                         </div>
                     </div>

@@ -174,7 +174,7 @@ export default function Home() {
               </div>
 
               <div className='bg-[#FFFEF7] my-2 p-3 w-80 lg:w-[500px]'>
-                <p className="text-[40px] sedan text-[#9e7653] text-center mb-3">"All For One" Minigame Website</p>
+                <p className="text-[40px] sedan text-[#9e7653] text-center mb-3">&quot;All For One&quot; Minigame Website</p>
                 <img src={aforr.src} className="pb-3" alt="MockTalks Front Page" />
                 <p className="quando text-base text-[#9e7653]">Vercel: <span><a className="underline" target="_blank" href="https://aforr.vercel.appp">All For One Website</a></span></p>
                 <p className="quando text-base text-[#9e7653]">Github: <span><a className="underline" target="_blank" href="https://github.com/SebastianBrazil/AFORR">All For One Frontend</a></span></p>
