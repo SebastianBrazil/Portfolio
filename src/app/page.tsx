@@ -37,6 +37,7 @@ export default function Home() {
           <div className='grid justify-center'>
             <p className='text-[#9e7653] my-4 text-4xl text-center quando'>SKILLS</p>
 
+            <p className="text-[#9e7653] mb-4 text-2xl text-center quando">Languages, Libraries, and Frameworks</p>
             <div className='md:flex justify-evenly w-screen my-2 max-md:grid max-md:grid-cols-2'>
               <div className="max-md:mt-3">
                 <div className="max-md:flex max-md:justify-center">
@@ -79,12 +80,6 @@ export default function Home() {
             <div className='md:flex justify-evenly w-screen my-2 max-md:grid max-md:grid-cols-2'>
               <div className="max-md:mt-3">
                 <div className="max-md:flex max-md:justify-center">
-                  <img className='w-16 h-16 mx-6' src={sql.src} alt="MySql" />
-                </div>
-                <p className="text-center quando text-base text-[#9e7653]">MySQL</p>
-              </div>
-              <div className="max-md:mt-3">
-                <div className="max-md:flex max-md:justify-center">
                   <img className='w-16 h-16 mx-6 py-1' src={bs.src} alt="BootStrap" />
                 </div>
                 <p className="text-center quando text-base text-[#9e7653]">BootStrap</p>
@@ -101,14 +96,21 @@ export default function Home() {
                 </div>
                 <p className="text-center quando text-base text-[#9e7653]">React</p>
               </div>
-            </div>
-
-            <div className='md:flex justify-evenly w-screen my-2 max-md:grid max-md:grid-cols-2'>
               <div className="max-md:mt-3">
                 <div className="max-md:flex max-md:justify-center">
                   <img className='w-16 h-16 mx-6' src={next.src} alt="Next.js" />
                 </div>
                 <p className="text-center quando text-base text-[#9e7653]">Next.js</p>
+              </div>
+            </div>
+
+            <p className="text-[#9e7653] my-4 text-2xl text-center quando">Programs and Tools</p>
+            <div className='md:flex justify-evenly w-screen my-2 max-md:grid max-md:grid-cols-2'>
+              <div className="max-md:mt-3">
+                <div className="max-md:flex max-md:justify-center">
+                  <img className='w-16 h-16 mx-6' src={sql.src} alt="MySql" />
+                </div>
+                <p className="text-center quando text-base text-[#9e7653]">MySQL</p>
               </div>
               <div className="max-md:mt-3">
                 <div className="max-md:flex max-md:justify-center">
@@ -188,9 +190,9 @@ export default function Home() {
         <div className='mb-14'>
           <p className='text-[#9e7653] my-4 text-4xl text-center quando pb-10'>ABOUT ME</p>
           <div className='md:flex max-md:grid justify-center max-lg:px-10'>
-            <p className='quando text-2xl text-[#9e7653] lg:w-[40%] md:mr-20'>I, Sebastian Breve-Sanchez, am a web developer. I currently attend CodeStack Academy, where I was first taught how to code. From here I learned all of my current programming skillset, which ranges from Unity to fullstack web development. I have experience with frontend languages such as Javascript and libraries such as React, as well as knowing C# and how to create and host an API.</p>
+            <p className='quando text-2xl text-[#9e7653] md:w-[40%] md:mr-20'>I, Sebastian Breve-Sanchez, am a web developer. I currently attend CodeStack Academy, where I was first taught how to code. From here I learned all of my current programming skillset, which ranges from Unity to fullstack web development. I have experience with frontend languages such as Javascript and libraries such as React, as well as knowing C# and how to create and host an API.</p>
             <div className='max-md:flex pt-6 max-md:pt-10 max-md:justify-center'>
-              <img className='w-80 h-80 rounded-full' src={me.src} alt="A picture of myself" />
+              <img className='w-56 h-56 lg:w-80 lg:h-80 rounded-full' src={me.src} alt="A picture of myself" />
             </div>
           </div>
         </div>

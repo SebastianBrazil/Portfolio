@@ -1,5 +1,6 @@
 "use client"
 import React from 'react'
+import titleImg from "../assets/book.png"
 
 const NavBarComponent = () => {
     return (
@@ -7,7 +8,10 @@ const NavBarComponent = () => {
             <div className='w-screen'>
                 <div className='grid'>
                     <div className='my-4'>
-                        <p className='text-[#eee7ce] text-2xl md:text-3xl ml-5 sedan'>CodeChronicles</p>
+                        <div className='flex flex-row ml-5'>
+                            <img className='mt-[2px] w-7 h-9' src={titleImg.src} alt="" />
+                            <p className='text-[#eee7ce] ml-2 text-2xl md:text-3xl sedan'>CodeChronicles</p>
+                        </div>
                     </div>
                 </div>
             </div>
