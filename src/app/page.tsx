@@ -3,6 +3,8 @@ import FooterComponent from "./components/FooterComponent";
 import NavBarComponent from "./components/NavBarComponent";
 import pokeImg from "./assets/pokeImg.png"
 import mockTalkImg from "./assets/mockTalkImg.png"
+import aforr from "./assets/aforr.png"
+import rpsls from "./assets/rpsls.png"
 
 import github from "./assets/git.png"
 import azure from "./assets/skillsImages/azure.png"
@@ -26,9 +28,7 @@ export default function Home() {
   return (
     <>
       {/* 
-        fix skill images
         separate them into categories
-        add more projects
       */}
       <div className="min-h-screen h-full gradient grid">
         <NavBarComponent />
@@ -40,7 +40,7 @@ export default function Home() {
             <div className='md:flex justify-evenly w-screen my-2 max-md:grid max-md:grid-cols-2'>
               <div className="max-md:mt-3">
                 <div className="max-md:flex max-md:justify-center">
-                  <img className='w-16 h-16 mx-6 py-2' src={html.src} alt="HTML" />
+                  <img className='w-16 h-16 mx-6 p-1' src={html.src} alt="HTML" />
                 </div>
                 <p className="text-center quando text-base text-[#9e7653]">HTML</p>
               </div>
@@ -52,7 +52,7 @@ export default function Home() {
               </div>
               <div className="max-md:mt-3">
                 <div className="max-md:flex max-md:justify-center">
-                  <img className='w-16 h-16 mx-6 py-1' src={js.src} alt="JavaScript" />
+                  <img className='w-16 h-16 mx-6 rounded-md' src={js.src} alt="JavaScript" />
                 </div>
                 <p className="text-center quando text-base text-[#9e7653]">JavaScript</p>
               </div>
@@ -97,7 +97,7 @@ export default function Home() {
               </div>
               <div className="max-md:mt-3">
                 <div className="max-md:flex max-md:justify-center">
-                  <img className='w-16 h-16 mx-6' src={react.src} alt="React" />
+                  <img className='w-16 h-16 mx-6 py-1' src={react.src} alt="React" />
                 </div>
                 <p className="text-center quando text-base text-[#9e7653]">React</p>
               </div>
@@ -118,7 +118,7 @@ export default function Home() {
               </div>
               <div className="max-md:mt-3">
                 <div className="max-md:flex max-md:justify-center">
-                  <img className='w-16 h-16 mx-6 py-1' src={azure.src} alt="Azure" />
+                  <img className='w-16 h-16 mx-6 p-1' src={azure.src} alt="Azure" />
                 </div>
                 <p className="text-center quando text-base text-[#9e7653]">Azure</p>
               </div>
@@ -167,19 +167,19 @@ export default function Home() {
 
             <div className="md:flex md:justify-evenly w-screen max-md:grid max-md:justify-center">
               <div className='bg-[#FFFEF7] my-2 p-3 w-80 lg:w-[500px]'>
-                <p className="text-[40px] sedan text-[#9e7653] text-center mb-3">MockTalks</p>
-                <img src={mockTalkImg.src} className="pb-3" alt="MockTalks Front Page" />
-                <p className="quando text-base text-[#9e7653]">Vercel: <span><a className="underline" target="_blank" href="https://mocktalks.vercel.app">MockTalks Website</a></span></p>
-                <p className="quando text-base text-[#9e7653]">Github: <span><a className="underline" target="_blank" href="https://github.com/ItzTeeler/mocktalks">MockTalks Frontend</a></span></p>
-                <p className="quando text-base mt-3 text-[#9e7653]">This website allows anyone to practice their interviewing skills. Users sign in, write a bit about themselves, and then schedule an appointment where they are paired with an available peer. Created in the Next.js framework, this was a group project. I worked mostly on the backend of the project, using C# to write an API and host it to Azure. However, I did do some work on the frontend, most notably the profile section and the associated modals to create and update it.</p>
+                <p className="text-[40px] sedan text-[#9e7653] text-center mb-3">Rock Paper Scissors Lizard Spock</p>
+                <img src={rpsls.src} className="pb-3" alt="Pokemon Index Front Page" />
+                <p className="quando text-base text-[#9e7653]">Vercel: <span><a className="underline" target="_blank" href="https://rpsls-six.vercel.app">RPSLS Site</a></span></p>
+                <p className="quando text-base text-[#9e7653]">Github: <span><a className="underline" target="_blank" href="https://github.com/SebastianBrazil/RPSLS">RPSLS Front & Backend</a></span></p>
+                <p className="quando text-base mt-3 text-[#9e7653]">This website is a slightly more complex game of rock paper scissors, created in vanilla JavaScript with a built-in API. The user can choose to play as one player or two players, and the single player option calls on a third-party API to simulate an opponent’s response.</p>
               </div>
 
               <div className='bg-[#FFFEF7] my-2 p-3 w-80 lg:w-[500px]'>
-                <p className="text-[40px] sedan text-[#9e7653] text-center mb-3">Pokemon Index</p>
-                <img src={pokeImg.src} className="pb-3" alt="Pokemon Index Front Page" />
-                <p className="quando text-base text-[#9e7653]">Vercel: <span><a className="underline" target="_blank" href="https://pokemon-react-rebuild-index.vercel.app">Pokemon React Site</a></span></p>
-                <p className="quando text-base text-[#9e7653]">Github: <span><a className="underline" target="_blank" href="https://github.com/SebastianBrazil/Pokemon-React-Rebuild">Pokemon-React-Rebuild</a></span></p>
-                <p className="quando text-base mt-3 text-[#9e7653]">This website utilizes the React library and TailwindCSS to create an application that calls on the Poke API and allows the user to search for any Pokémon before the fifth gneration, displaying some relevant data about said Pokémon. The user can also save Pokémon, which allows them quicker access to that Pokémon. This app was originally built in vanilla JS, but was rebuilt in React.</p>
+                <p className="text-[40px] sedan text-[#9e7653] text-center mb-3">"All For One" Minigame Website</p>
+                <img src={aforr.src} className="pb-3" alt="MockTalks Front Page" />
+                <p className="quando text-base text-[#9e7653]">Vercel: <span><a className="underline" target="_blank" href="https://aforr.vercel.appp">All For One Website</a></span></p>
+                <p className="quando text-base text-[#9e7653]">Github: <span><a className="underline" target="_blank" href="https://github.com/SebastianBrazil/AFORR">All For One Frontend</a></span></p>
+                <p className="quando text-base mt-3 text-[#9e7653]">This website utilizes React to display ten minigames that are intended to show off the use of a custom API that I created in C#. The website calls on the API which is hosted via Microsoft Azure.</p>
               </div>
             </div>
           </div>
