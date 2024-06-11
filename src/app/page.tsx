@@ -27,9 +27,6 @@ import me from "./assets/croppedMe.jpeg"
 export default function Home() {
   return (
     <>
-      {/* 
-        separate them into categories
-      */}
       <div className="min-h-screen h-full gradient grid">
         <NavBarComponent />
 
@@ -173,7 +170,7 @@ export default function Home() {
                 <img src={rpsls.src} className="pb-3" alt="Pokemon Index Front Page" />
                 <p className="quando text-base text-[#9e7653]">Vercel: <span><a className="underline" target="_blank" href="https://rpsls-six.vercel.app">RPSLS Site</a></span></p>
                 <p className="quando text-base text-[#9e7653]">Github: <span><a className="underline" target="_blank" href="https://github.com/SebastianBrazil/RPSLS">RPSLS Front & Backend</a></span></p>
-                <p className="quando text-base mt-3 text-[#9e7653]">This website is a slightly more complex game of rock paper scissors, created in vanilla JavaScript with a built-in API. The user can choose to play as one player or two players, and the single player option calls on a third-party API to simulate an opponent’s response.</p>
+                <p className="quando text-base mt-3 text-[#9e7653]">{"This website is a slightly more complex game of rock paper scissors, created in vanilla JavaScript with a built-in API. The user can choose to play as one player or two players, and the single player option calls on a third-party API to simulate an opponent’s response."}</p>
               </div>
 
               <div className='bg-[#FFFEF7] my-2 p-3 w-80 lg:w-[500px]'>
