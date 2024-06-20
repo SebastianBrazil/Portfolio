@@ -181,7 +181,7 @@ export default function Home() {
                 <p className="text-center quando text-base text-[#72503C]">VS Code</p>
               </div>
             </div>
-            
+
             <div className='md:flex justify-evenly w-screen max-w-[1920px] my-2 max-md:grid max-md:grid-cols-2'>
               <div className="max-md:mt-3">
                 <div className="max-md:flex max-md:justify-center">
