@@ -2,6 +2,7 @@
 import Image from "next/image";
 import FooterComponent from "./components/FooterComponent";
 import NavBarComponent from "./components/NavBarComponent";
+import Google from "./Data/Google";
 import pokeImg from "./assets/pokeImg.png"
 import mockTalkImg from "./assets/mockTalkImg.png"
 import aforr from "./assets/aforr.png"
@@ -38,6 +39,7 @@ import me from "./assets/croppedMe.jpeg"
 export default function Home() {
   return (
     <>
+      <Google />
       <div className="min-h-screen h-full gradient grid">
         <NavBarComponent />
 
