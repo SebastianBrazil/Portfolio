@@ -263,7 +263,7 @@ export default function Home() {
         <div className='mb-14 grid justify-center w-screen'>
           <p className='text-[#72503C] my-4 text-4xl text-center quando pb-10'>ABOUT ME</p>
           <div className='lg:flex max-lg:grid max-w-[1920px] justify-center max-lg:px-10'>
-            <p className='quando text-2xl text-[#72503C] lg:w-[40%] lg:mr-20'>I, Sebastian Breve-Sanchez, am a web developer. I am attending CodeStack Academy, where I was first taught how to code. From here I&apos;ve had 1100+ hours to learn my current programming skillset, which ranges from Unity to fullstack web development. I have experience with frontend languages such as JavaScript and libraries such as React, as well as knowing C# and how to create and host an API. Currently I am going through an internship through CodeStack, and I&apos;m practicing PHP, Python, and SQL when I can.</p>
+            <p className='quando text-2xl text-[#72503C] lg:w-[40%] lg:mr-20'>I, Sebastian Breve-Sanchez, am a web developer. I attended CodeStack Academy, where I was first taught how to code. From here I&apos;ve had 1100+ hours to learn my current programming skillset, which ranges from Unity to fullstack web development. I have experience with frontend languages such as JavaScript and libraries such as React, as well as knowing C# and how to create and host an Azure API. I recently completed an internship through CodeStack, and I&apos;m practicing PHP, Python, and SQL when I can.</p>
             <div className='max-lg:flex pt-6 max-lg:pt-10 max-lg:justify-center'>
               <Image width={400} height={400} className='w-56 h-56 lg:w-80 lg:h-80 rounded-full' src={me.src} alt="A picture of myself" />
             </div>

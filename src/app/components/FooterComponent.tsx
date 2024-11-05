@@ -27,7 +27,7 @@ const FooterComponent = () => {
             </div>
             <div className='md:flex max-md:grid justify-center my-4'>
                 <p className='text-[#72503C] max-md:text-center md:text-lg quando md:px-4' >sebastianbsanchez67@gmail.com</p>
-                <p className='text-[#72503C] max-md:text-center md:text-lg quando md:px-4' >(209) 227-0161</p>
+                <p className='text-[#72503C] max-md:text-center md:text-lg quando md:px-4' >(209) 662-9916</p>
             </div>
             <div className='flex justify-center'>
                 <p className='text-[#72503C] text-sm quando pt-4'>Made in Next.js</p>
